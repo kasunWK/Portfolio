@@ -1,17 +1,22 @@
 import React from 'react';
-import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
-import Courses from './components/Courses';
-import Skills from './components/Skills';
+import styled, { ThemeProvider } from 'styled-components'
+
+import { darkTheme } from './utils/theme';
+
+const Body = styled.div`
+  background-color: ${({ theme }) => theme.bg};
+  width: 100%;
+  overflow-x: hidden;
+`
+
 
 function App() {
   return (
-    <div>
-      <AboutMe />
-      <Projects />
-      <Courses />
-      <Skills />
-    </div>
+      <ThemeProvider theme={darkTheme}>
+        <Body>
+          hi
+        </Body>
+     </ThemeProvider>
   );
 }
 
