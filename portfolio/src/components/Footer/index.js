@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import MailIcon from '@mui/icons-material/Mail';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -97,10 +97,10 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          {/* <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon> */}
+          <SocialMediaIcon href={Bio.facebook} target="display"><WhatsAppIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          {/* <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon> */}
+          <SocialMediaIcon href={Bio.mail} target="display"><MailIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2023 Kasun Udayanga. All rights reserved.
