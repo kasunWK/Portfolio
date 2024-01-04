@@ -217,7 +217,8 @@ export const education = [
      school: "Taxil Central College, Horana",
   //   date: "Apr 2019 - Apr 2025",
   //   grade: "88.2%",
-     desc: "Passed GCE ordinary level exam. Passed GCE advanced level exam in commerce stream.",
+     desc: "Passed GCE ordinary level exam.Passed GCE advanced level exam in commerce stream.",
+     
   //   degree: "ISC(XII), Science with Computer",
    }
 ];
@@ -226,7 +227,7 @@ export const projects = [
   {
     id: 0,
     title: "Libary Managment System",
-    date: "3rd Year Project",
+    date: "",
     description:
       "Developed system",
       image: "https://res.cloudinary.com/dchnrxq7o/image/upload/v1704296239/project/Screenshot_484_hyncro.png",
@@ -252,16 +253,14 @@ export const projects = [
   },
    {
     id: 1,
-     title: "Task Manager",
+     title: "Task Manager Application",
   //   date: "Oct 2022 - Present",
      description:"This is a mobile application that can use to the easy management of day today activities. It has add, edit and delete option of tasks.",
-     image:"https://res.cloudinary.com/dchnrxq7o/image/upload/v1704291154/project/WhatsApp_Image_2024-01-03_at_09.31.30_ce71e7f7_gt5sek.jpg",
+     image:"https://res.cloudinary.com/dchnrxq7o/image/upload/v1704379136/project/WhatsApp_Image_2024-01-03_at_22.36.04_888a9c38_isqkdw.jpg",
      tags: [
        "Java",
      ],
-  //   category: "web app",
-     github: "https://github.com/kasunWK/Task-Manager-Mobile-App",
-  //   webapp: "https://vexa-app.netlify.app/",
+     github: "https://github.com/kasunWK/Task-Manager-Mobile-App"
    },
    {
      id: 2,
@@ -271,9 +270,7 @@ export const projects = [
   //     "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
      image:"https://res.cloudinary.com/dchnrxq7o/image/upload/v1704297798/project/Capture8_fpzwl4.png",
      tags: ["Java"],
-  //   category: "machine learning",
-     github: "https://github.com/kasunWK/Temperature-convertor",
-  //   webapp: "https://brain-tumor.netlify.app/",
+     github: "https://github.com/kasunWK/Temperature-convertor"
   //   member: [
   //     {
   //       name: "Rishav Chanda",
@@ -298,9 +295,7 @@ export const projects = [
      image: "https://res.cloudinary.com/dchnrxq7o/image/upload/v1704297782/project/Capture7_wny530.png",
   //     "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
      tags: ["Java"],
-  //   category: "android app",
-     github: "https://github.com/kasunWK/BMI_Calculator",
-  //   webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+     github: "https://github.com/kasunWK/BMI_Calculator"
    },
    {
      id: 4,
@@ -322,18 +317,18 @@ export const projects = [
     image: "https://res.cloudinary.com/dchnrxq7o/image/upload/v1704296179/project/Screenshot_725_t3o752.png",
  //     "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
     tags: ["React js,","Express js", "MongoDB", "Node js"],
-    github: "",
+    github: "https://github.com/JDBKJayakody/BLFrontend",
   },
   {
     id: 6,
-    title: "Web System for an Windscreen shop",
+    title: "Web System for Windscreen shop",
  //   date: "Jul 2021",
  //   description:
  //     "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image: "",
+    image: "https://res.cloudinary.com/dchnrxq7o/image/upload/v1704378874/project/WhatsApp_Image_2024-01-04_at_20.00.26_36eac3d7_ihkkv0.jpg",
  //     "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
     tags: ["React js,","Express js", "MongoDB", "Node js"],
-    github: "",
+    github: "https://github.com/kasunWK/project1",
   }
 ];
 
