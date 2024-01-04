@@ -228,8 +228,7 @@ export const projects = [
     id: 0,
     title: "Libary Managment System",
     date: "",
-    description:
-      "Developed system",
+    description: "This system was  developed for the easy management of library functionalities like issuing book, taking fine, adding and removing books etc.",
       image: "https://res.cloudinary.com/dchnrxq7o/image/upload/v1704296239/project/Screenshot_484_hyncro.png",
     //   "https://uhttps://res.cloudinary.com/dchnrxq7o/image/upload/v1704296239/project/Screenshot_484_hyncro.pngser-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
     tags: ["Java FX", "MySQL"],
@@ -301,7 +300,7 @@ export const projects = [
      id: 4,
      title: "Student Managment System",
   //   date: "Jul 2021",
-  //   description:
+     description: "This is a system developed with functionalities like registering into system, checking own results etc",
   //     "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
      image: "https://res.cloudinary.com/dchnrxq7o/image/upload/v1704298801/project/capture11_cmcoqp.jpg",
   //     "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
@@ -312,7 +311,7 @@ export const projects = [
     id: 5,
     title: "Web System for an outdoor equipment renting service",
  //   date: "Jul 2021",
- //   description:
+    description:"This is a web application for a open stage equipment renting shop. This system facilitate customers with online renting of equipments and easy maintenance of their services for owner & employees.",
  //     "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
     image: "https://res.cloudinary.com/dchnrxq7o/image/upload/v1704296179/project/Screenshot_725_t3o752.png",
  //     "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
@@ -323,7 +322,7 @@ export const projects = [
     id: 6,
     title: "Web System for Windscreen shop",
  //   date: "Jul 2021",
- //   description:
+    description: "This is a web application developed for a windscreen shop. This system gives facility for customers to buy windscreens online.",
  //     "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
     image: "https://res.cloudinary.com/dchnrxq7o/image/upload/v1704378874/project/WhatsApp_Image_2024-01-04_at_20.00.26_36eac3d7_ihkkv0.jpg",
  //     "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
