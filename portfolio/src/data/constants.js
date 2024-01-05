@@ -214,7 +214,7 @@ export const education = [
    {
      id: 1,
      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyr9P_57jSXu69y51Khs5KjRkjhxDia2I7Kg&usqp=CAU",
-     school: "Taxil Central College, Horana",
+     school: "Taxila Central College, Horana",
   //   date: "Apr 2019 - Apr 2025",
   //   grade: "88.2%",
      desc: "Passed GCE ordinary level exam.Passed GCE advanced level exam in commerce stream.",
