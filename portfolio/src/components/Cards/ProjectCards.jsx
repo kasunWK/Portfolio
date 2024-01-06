@@ -94,7 +94,6 @@ const Date = styled.div`
     }
 `
 
-
 const Description = styled.div`
     font-weight: 400;
     color: ${({ theme }) => theme.text_secondary + 99};
@@ -107,11 +106,6 @@ const Description = styled.div`
     text-overflow: ellipsis;
 `
 
-const Members = styled.div`
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-`
 const Avatar = styled.img`
     width: 38px;
     height: 38px;
@@ -136,12 +130,7 @@ const ProjectCards = ({project,setOpenModal}) => {
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
             </Details>
-            <Members>
-                {project.member?.map((member) => (
-                    <Avatar src={member.img}/>
-                ))}
-            </Members>
-            {/* <Button>View Project</Button> */}
+
         </Card>
     )
 }
